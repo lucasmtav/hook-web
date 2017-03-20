@@ -17,8 +17,7 @@ test:
   override:
     - npm test
     - npm run build
-    - cd build
-    - zip hook.zip *
+    - cd build && zip hook.zip *
     - cp hook.zip $CIRCLE_ARTIFACTS/hook.zip
     - cp deploy.sh $CIRCLE_ARTIFACTS/deploy.sh
 deployment:
