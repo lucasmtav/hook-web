@@ -25,6 +25,21 @@ class Sidebar extends Component {
             <li className="nav-item">
               <Link to={'/dashboard'} className="nav-link" activeClassName="active"><i className="icon-speedometer"></i> Dashboard <span className="badge badge-info">NEW</span></Link>
             </li>
+            <li className="nav-title">
+              Cadastros
+            </li>
+            <li className="nav-item">
+              <Link to={'cadastros/empresa'} className="nav-link" activeClassName="active"><i className="icon-briefcase"></i> Empresas </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'cadastros/projeto'} className="nav-link" activeClassName="active"><i className="icon-puzzle"></i> Projetos </Link>
+            </li>
+            <li className="nav-title">
+              Extras
+            </li>
+            <li className="nav-item">
+              <Link to={'extras/comando-avulso'} className="nav-link" activeClassName="active"><i className="icon-arrow-right"></i> Comando avulso </Link>
+            </li>
           </ul>
         </nav>
       </div>
