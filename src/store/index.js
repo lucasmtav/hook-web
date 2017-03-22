@@ -3,7 +3,7 @@ import {compose, createStore, applyMiddleware } from 'redux';
 import rootReducer from '../reducers';
 import thunkMiddleware from 'redux-thunk';
 
-import { routerStateReducer, reduxReactRouter } from 'redux-react-router';
+// import { routerStateReducer, reduxReactRouter } from 'redux-react-router';
 
 // import createHistory from 'history/lib/createBrowserHistory';
 
