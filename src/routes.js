@@ -40,7 +40,7 @@ const store = configureStore();
 // }
 
 function executar(comandos) {
-  store.dispatch(executarComando('/hook', comandos))
+  store.dispatch(executarComando('/api/hook', comandos))
 }
 
 //connects root reducer to props
